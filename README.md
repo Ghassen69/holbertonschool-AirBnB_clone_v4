@@ -158,5 +158,12 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 
 Second part of Airbnb: Joann Vuong
+Ghassen Ayari
+
+##Contribution
+A method to retrieve one object
+A method to count the number of objects in storage
+Create an endpoint that retrieves the number of each objects by type
+
 ## License
 Public Domain. No copy write protection. 
