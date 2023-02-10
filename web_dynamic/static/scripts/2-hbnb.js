@@ -12,4 +12,14 @@ document.addEventListener("DOMContentLoaded", function() {
         Object.values(selectedAmenities).join(", ") || "&nbsp;";
     }
   });
+
+  fetch("http://0.0.0.0:5001/api/v1/status/")
+    .then(response => response.json())
+    .then(data => {
+      if (data.status === "OK") {
+        document.querySelector("div#api_status").classList.add("available");
+      } else {
+        document.querySelector("div#api_status").classList.remove("available");
+      }
+    });
 });
